@@ -491,4 +491,8 @@ a.speaker-card:hover {
   .nav__toggle { display: flex; }
   .section { padding: 48px 0; }
   .program-slot { grid-template-columns: 80px 1fr; }
+
+  .two-col-layout {
+    grid-template-columns: 1fr !important;
+  }
 }
