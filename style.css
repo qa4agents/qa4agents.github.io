@@ -530,3 +530,40 @@ a.speaker-card:hover {
   color: var(--teal);
   margin-top: 1px;
 }
+
+
+/* ── Accepted paper cards ───────────────────────────────── */
+.paper-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 860px;
+}
+
+.paper-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 18px;
+}
+
+.paper-card__type {
+  font-size: .72rem;
+  font-weight: 600;
+  color: var(--teal);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.paper-card__title {
+  font-weight: 600;
+  font-size: .92rem;
+  color: var(--navy);
+  margin-bottom: 4px;
+}
+
+.paper-card__authors {
+  font-size: .82rem;
+  color: var(--muted);
+}
