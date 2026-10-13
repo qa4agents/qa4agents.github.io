@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keynote Speaker — QA4Agents 2026</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo">QA4<span>Agents</span> '26</a>
+    <button class="nav__toggle" aria-label="Menu" onclick="document.querySelector('.nav__links').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cfp.html">Call for Papers</a></li>
+      <li><a href="program.html">Program</a></li>
+      <li><a href="keynote.html" class="active">Keynote</a></li>
+      <li><a href="committees.html">Committees</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" style="padding: 60px 0 50px;">
+  <div class="container">
+    <div class="hero__tag">QA4Agents 2026</div>
+    <h1>Keynote Speaker</h1>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <div style="max-width: 860px;">
+
+      <!-- Speaker block -->
+      <div style="display: flex; gap: 36px; align-items: flex-start; margin-bottom: 40px;">
+
+        <!-- Foto -->
+        <div style="flex-shrink: 0;">
+          <img
+            src="photos/kapitsaki_georgia.jpg"
+            alt="Georgia Kapitsaki"
+            style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 3px solid var(--border);"
+          >
+        </div>
+
+        <div style="padding-top: 8px;">
+          <div style="font-size:.78rem; font-weight:600; color:var(--teal); text-transform:uppercase; letter-spacing:1.2px; margin-bottom:8px;">Keynote Speaker</div>
+          <h2 style="font-size: 1.9rem; margin-bottom: 6px;">Georgia Kapitsaki</h2>
+          <div style="font-size: 1rem; color: var(--muted);">Department of Computer Science, University of Cyprus, Cyprus</div>
+        </div>
+
+      </div>
+
+      <!-- Talk -->
+      <div style="margin-bottom: 40px;">
+        <h3 style="font-size: 1.15rem; color: var(--navy); margin-bottom: 12px; padding-bottom: 10px; border-bottom: 2px solid var(--accent); display: inline-block;">
+          Regulatory compliance as a quality attribute for conversational agentic systems
+        </h3>
+        <p style="margin-top: 16px; line-height: 1.75;">
+          Conversational agentic systems rely on dynamic, multi-turn interactions and often
+          orchestrate external data sources or pre-trained models to accomplish complex
+          tasks. During this interaction, the replies provided to the user need to be accurate
+          and not contain, for instance, sensitive data that come from external sources.
+          Consequently, system reliability depends not only on conversational accuracy, but
+          also on regulatory integrity. In this talk, I will first discuss the critical intersection of
+          software quality and regulatory compliance—highlighting key frameworks such as
+          GDPR, CCPA, and the risk-based obligations of the EU AI Act. I will present software
+          engineering works that focus on this aspect. I will then focus on AI models and
+          datasets descriptiosn and present an analysis of regulatory compliance readiness
+          across widely used open-source dataset descriptions, evaluating their completeness
+          and data governance indicators. Finally, I will frame regulatory readiness as a
+          essential quality attribute for the lifecycle of trustworthy conversational agentic
+          systems.
+        </p>
+      </div>
+
+      <!-- Bio -->
+      <div style="background: var(--light); border-radius: 10px; padding: 24px 28px;">
+        <h4 style="font-size: .85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--teal); margin-bottom: 12px;">Short Bio</h4>
+        <p style="line-height: 1.75;">
+          Georgia Kapitsaki is an Associate Professor at the Department of Computer
+          Science, University of Cyprus (UCY). As faculty at UCY, she coordinated and has
+          been the principal investigator of national and EU funded research projects (e.g.
+          Support4Resilience, SocioCoast, CYberSafetyVI). She has been involved in the
+          organization of international conferences (e.g. SANER 2026, ISD 2025, ICSME
+          2022) and has been serving as member of the program committee of international
+          conferences (e.g. FSE 2026, MSR 2026, SAC 2026, ESEM 2025, ICWS 2025,
+          SANER 2024). She is a member of the editorial board of Springer Software Quality
+          Journal and ERCIM News. She has published over 100 papers in peer-reviewed
+          journals, and scientific conferences and workshops. She is on the board of directors
+          of GFOSS Open Technologies Alliance. Her research interests include Software
+          Engineering, Software Reuse, and Privacy Enhancing Technologies. She is a faculty
+          member of the Software Engineering and Internet Technologies Laboratory (SEIT).
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p><strong>QA4Agents 2026</strong> — Co-located with ISSRE 2026</p>
+    <p style="margin-top:8px;">For any question please contact the <a href="mailto:elena.masserini@unimib.it">workshop organizers</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
